@@ -1,0 +1,128 @@
+body{
+  font-family: 'Lato', sans-serif !important;
+  color: rgb(43, 43, 43) !important;
+
+}
+.background{
+  background: rgb(232, 232, 232);
+  background: linear-gradient(to bottom,#051322,#15457c);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.img-fluid{
+
+  margin-right: 1100px;
+  height: 36px;
+  width: 113px;
+}
+.data{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.categories{
+   border-radius: 10px;
+   margin-top: 100px;
+   box-shadow: 0px 1px 15px 1px #7a7a7a;
+   width: 850px;
+   height: max-content;
+   display: flex;
+   justify-content: space-evenly;
+   z-index: 2;
+}
+.categories span{
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fas{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.tickets{
+  background-color: white;
+  width: 1250px;
+  height: 325px !important;
+  position: absolute;
+  top: 135px;
+  border-radius: 10px;
+  z-index: 1;
+  padding: 55px;
+}
+.ticket-type{
+   margin-top: 20px;
+   margin-right: 500px ;
+   font-size: 14px !important;
+   font-weight: 900;
+}
+.ticket-type span{
+  padding: 5px;
+}
+.ticket-type span i{
+  font-size: 20px;
+  
+}
+
+.selected-ticket-type{
+  background-color: rgb(211, 211, 211);
+  border-radius: 90px !important;
+}
+.search{
+  border: 1px solid rgb(202, 202, 202);
+  display: flex; 
+  margin-top: 10px; 
+  border-radius: 5px;
+}
+.flight{
+  width: 330px;
+  margin: 15px;
+  color: rgb(15, 15, 15);
+  border-right: 1px solid rgb(202, 202, 202);
+}
+.fare-type{
+   margin: 10px;
+   font-size: 14px;
+   display:flex;
+}
+.fare-select{
+  /* margin-right: 80px !important; */
+  display: flex;
+  width: 80px ;
+}
+.type{
+  display: flex;
+  margin-right: auto;
+}
+.selected-fare-type i {
+  font-size: 14px;
+  color: rgb(18, 119, 226);
+}
+.type span{
+  justify-content: space-evenly;
+}
+.dates{
+  padding-right: 20px;
+  margin: 15px;
+  border-right: 1px solid rgb(202, 202, 202);
+
+}
+.dates span{
+  color: rgb(15, 15, 15);
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  
+}
+.return{
+  margin: 15px;
+  padding-right: 20px;
+}
+.return span{
+  padding: 10px;
+  color: rgb(15, 15, 15);
+  font-size: 14px;
+  display: flex;
+}
