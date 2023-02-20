@@ -126,3 +126,21 @@ body{
   font-size: 14px;
   display: flex;
 }
+.footer{
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  color: white;
+}
+.face{
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twit{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
